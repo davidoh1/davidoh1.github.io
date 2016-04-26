@@ -1,54 +1,81 @@
-h1 { 
-  text-align: center
-}
-
-nav a {
+.navbar a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: 18px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
 }
 
-.nav li {
+.navbar li {
   display: inline;
 }
 
 
-jumbotron {
-  background-image:img("manatee.jpg");
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
+.navbar{
+    background-color: yellow;
 }
 
-.jumbotron .container {
-  position: relative;
-  top:100px;
+
+.carousel-inner img {
+    margin: auto;
+    
+
 }
 
-.jumbotron h1 {
-  color: #fff;
-  font-size: 48px;  
-  font-family: 'Shift', sans-serif;
-  font-weight: bold;
+.carousel img {
+    min-width: 100%;
+    
 }
 
-.jumbotron p {
-  font-size: 20px;
-  color: #fff;
+
+.well-normal{
+    text-align: center;
+    font-size: 18px;
+    
 }
 
-.learn-more {
-  background-color: #f7f7f7;
+
+
+.header {
+        color: #36A0FF;
+        font-size: 27px;
+        padding: 10px;
+    }
+
+    .bigicon {
+        font-size: 35px;
+        color: #36A0FF;
+    }
+
+
+
+
+
+.panel-default{
+    background-color: aqua;
+    text-align: center;
+    font-size: 20px;
 }
 
-.learn-more h3 {
-  font-family: 'Shift', sans-serif;
-  font-size: 18px;
-  font-weight: bold;
+
+
+
+
+.neighborhood-guides {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+        
+.neighborhood-guides h2 {
+            color: #393c3d;
+            font-size: 24px;
 }
 
-.learn-more a {
-  color: #00b0ff;
+
+.neighborhood-guides p {
+    font-size: 15px;
+    margin-bottom: 13px;
 }
+
+
+
