@@ -1,3 +1,8 @@
+body {
+    background-color: lightgrey;
+}
+
+
 .navbar a {
   color: #5a5a5a;
   font-size: 18px;
@@ -12,70 +17,166 @@
 
 
 .navbar{
-    background-color: yellow;
+    background-color: lightgrey;
 }
 
 
-.carousel-inner img {
-    margin: auto;
-    
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: blue;
+}
 
+.navbar-brand{
+    font-family: cursive; 
+}
+
+
+
+.carousel-inner {
+    margin: auto;
 }
 
 .carousel img {
     min-width: 100%;
-    
+}
+
+
+
+
+
+.img-responsive{
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
 }
 
 
 .well-normal{
     text-align: center;
     font-size: 18px;
+    background-color: lightgrey;
     
 }
 
+.footer {
+     text-align: center;
+    font-size: 12px;
+    background-color: lightgrey;
+}
+
+p{
+margin: 0;
+padding: 0;
+}
 
 
 .header {
         color: #36A0FF;
         font-size: 27px;
         padding: 10px;
-    }
+}
 
-    .bigicon {
+.bigicon {
         font-size: 35px;
         color: #36A0FF;
-    }
+}
 
 
 
 
 
-.panel-default{
+
+/*.panel-default{
     background-color: aqua;
     text-align: center;
     font-size: 20px;
+}*/
+
+.jumbotron {
+  background-image:url("../images/banner.jpg");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.img-thumbnail{
+    background-color: lightgrey;
+    
 }
 
 
-
-
-
-.neighborhood-guides {
+/*.neighborhood-guides {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
 }
-        
 .neighborhood-guides h2 {
             color: #393c3d;
             font-size: 24px;
 }
-
-
 .neighborhood-guides p {
     font-size: 15px;
     margin-bottom: 13px;
+}*/
+
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+    
+    #bigblock {
+        padding: 15px;
+        margin: 20px 10px;
+    }
 }
 
 
 
+
+/*Jquery Aircraft Animation*/
+  #plainpic {
+  width: 330px;
+  height: 330px;
+  background-color: black;
+  margin: auto;
+}
+
+.stylepic {
+  border: 4px ridge blue;
+  border-radius: 20%;
+  
+}
+
+.aircraft {
+  background-image: url("../images/aircraft.jpg");
+  background-size:cover;
+  
+}
+
+#portrait {background-color:#BFF2FF;
+padding: 10px;} 
+
+
+
+/*Jquery Toggle*/
+.toggler { width: 500px; height: 200px; position: relative; }
+    #buttontog { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; background-image: url("../images/brookly-bridge.jpg"); 
+     background-size: cover;}
+
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; color: black;}
+  
