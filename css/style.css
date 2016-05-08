@@ -1,14 +1,18 @@
-body {
+body{
     background-color: lightgrey;
 }
 
+h1 {font-family: cursive, sans-serif, serif;
+}
 
+/*Navbar*/
 .navbar a {
   color: #5a5a5a;
   font-size: 18px;
   font-weight: bold;
   padding: 14px 10px;
   text-transform: uppercase;
+  font-family: cursive, sans-serif, serif;
 }
 
 .navbar li {
@@ -26,14 +30,19 @@ body {
 }
 
 .navbar-brand{
-    font-family: cursive; 
+    font-family: cursive, sans-serif, serif;
 }
 
 
-
+/*Carousel*/
 .carousel-inner {
     margin: auto;
+    
 }
+
+/*height:         400px;
+min-height:     400px;
+line-height:    400px;*/
 
 .carousel img {
     min-width: 100%;
@@ -41,8 +50,12 @@ body {
 
 
 
+/*.carousel-caption{
+top: 200px;
+}*/
 
 
+/*Image Responsive*/
 .img-responsive{
     display: inline-block;
     height: auto;
@@ -54,20 +67,25 @@ body {
     text-align: center;
     font-size: 18px;
     background-color: lightgrey;
-    
+    font-family: cursive, sans-serif, serif;
 }
 
 .footer {
      text-align: center;
     font-size: 12px;
     background-color: lightgrey;
+    font-family: cursive, sans-serif, serif;
 }
 
 p{
 margin: 0;
 padding: 0;
+font-family: cursive, sans-serif, serif;
 }
 
+h3{
+    font-family: cursive, sans-serif, serif;
+}
 
 .header {
         color: #36A0FF;
@@ -173,10 +191,11 @@ padding: 10px;}
 
 
 /*Jquery Toggle*/
-.toggler { width: 500px; height: 200px; position: relative; }
+    .toggler { width: 500px; height: 200px; position: relative; }
     #buttontog { padding: .5em 1em; text-decoration: none; }
     #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; background-image: url("../images/brookly-bridge.jpg"); 
-     background-size: cover;}
+     background-size: cover;
+}
 
     #effect h3 { margin: 0; padding: 0.4em; text-align: center; color: black;}
   
